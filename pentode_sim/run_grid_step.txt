@@ -1,0 +1,19 @@
+.control
+set filetype = ascii
+let start_grid = -12
+let stop_grid = 0
+let grid_step = 2
+let v_grid = start_grid
+* loop
+while v_grid le stop_grid
+	alter Vg1 v_grid
+	run
+	write /home/ken/projects/kicad/valve_sim1/pentode_sim/dc-sweep.out V(/vg) I(Va1)
+	set appendwrite
+	let v_grid = v_grid + grid_step
+end
+**plot dc1.I(Va1)
+**dc3.I(XU1(P)) dc4.I(XU1(P)) dc5.I(XU1(P)
+**+ dc6.I(XU1(P)) dc7.I(XU1(P) dc8.I(XU1(P)) dc9.I(XU1(P) dc10.I(XU1(P))
+.endc
+

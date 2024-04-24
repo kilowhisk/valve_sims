@@ -1,0 +1,5 @@
+#!/bin/bash
+echo convert spice raw to gnuplot
+echo "using input file $1"
+gawk -f conv2gnu.gawk $1
+gnuplot curve.plt

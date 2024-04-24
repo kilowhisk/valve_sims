@@ -1,0 +1,20 @@
+**sweep the screen grid voltage
+** keep the anode fixed 
+** step the grid vltage
+.control
+set filetype = ascii
+let start_grid = -12
+let stop_grid = 0
+let grid_step = 2
+let v_grid = start_grid
+* loop
+while v_grid le stop_grid
+	alter Vg1 v_grid
+	run
+	write /home/ken/projects/kicad/valve_sim1/pentode_sim/screen-sweep.out V(/vg) I(Va1)
+	set appendwrite
+	let v_grid = v_grid + grid_step
+end
+
+.endc
+
