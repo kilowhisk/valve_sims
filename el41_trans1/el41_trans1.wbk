@@ -17,23 +17,27 @@
         "right": 140,
         "top": 30
       },
-      "measurements": [
-        {
-          "expr": "RMS(v(/a_out))",
-          "format": ""
-        }
-      ],
+      "measurements": [],
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(/screen_tap)",
-          "trace_type": 257
-        },
-        {
-          "color": "rgb(228, 26, 28)",
-          "signal": "V(/v_screen)",
-          "trace_type": 257
+          "color": "rgb(166, 86, 40)",
+          "cursor1": {
+            "position": 0.0017433795712484235,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursor2": {
+            "position": 0.0022540983606557374,
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "cursorD": {
+            "x_format": "3~s",
+            "y_format": "3~A"
+          },
+          "signal": "I(R3)",
+          "trace_type": 258
         }
       ]
     },
