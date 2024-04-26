@@ -2699,7 +2699,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/home/ken/projects/kicad/valve_sim1/Output_Transformers.lib"
+		(property "Sim.Library" "C:\\Users\\Ken\\Documents\\Kicad_projects\\valve_sims\\library\\Output_Transformers.lib"
 			(at 132.08 68.072 0)
 			(effects
 				(font
@@ -2811,7 +2811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/home/ken/projects/kicad/valve_sim1/tetrodes_pentodes.lib"
+		(property "Sim.Library" "C:\\Users\\Ken\\Documents\\Kicad_projects\\valve_sims\\library\\tetrodes_pentodes.lib"
 			(at 121.92 109.22 0)
 			(effects
 				(font
@@ -2838,7 +2838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Pins" "2=G 3=K 7=P 9=G2"
+		(property "Sim.Pins" "2=P 3=G2 7=G 9=K"
 			(at 121.92 109.22 0)
 			(effects
 				(font
