@@ -84,6 +84,23 @@ RP2 Sg 2 6
 RS Sp1 5 0.1
 .ENDS PYE_PJ105
 ****************************************************
+******************************************************
+** Modified Ham1629A KJW
+*  To model a transformer with customeised parameters
+*  closer to measured values of winding resistance from PYE PJ105 Radiogram
+.SUBCKT PYE_PJ105B P Sg B Sp1 Sp2
+LP1 1 Sg 3.4H
+LS1 2 B  3.3mH
+LSA 5 Sp2 3.78mH
+KP1 LP1 LS1 0.999341699075543
+KP2 LS1 LSA 0.999341699075543
+KP3 LP1 LSA 0.999341699075543
+RP1 P 1 492
+RP2 Sg 2 6
+RS Sp1 5 0.1
+.ENDS PYE_PJ105
+****************************************************
+
 .SUBCKT Ham1629SE P Sg B Sp1 Sp2
 * Hammond 1629SE, Single Ended transformer, with Ultralinear taps at 40%, 6500 to 8 ohms, 3db 10 to 40000 hz
 *  

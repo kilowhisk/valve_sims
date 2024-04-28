@@ -3376,7 +3376,7 @@
 		)
 		(uuid "7f70b3ec-2859-4656-a479-263a2b08653c")
 	)
-	(text ".param K=0\n.param Pot=1Meg\n.param Rva={K*1Meg}\n.param Rvb={(1-K)*Pot}\n** -10dbu audio input reference level for 0VU\n.param inLevel=592mV"
+	(text ".param K=0\n.param Pot=1Meg\n.param Rva={K*1Meg}\n.param Rvb={(1-K)*Pot}\n** input level at grid U2 for -10VU at gram input \n.param inLevel={592m/2}"
 		(exclude_from_sim no)
 		(at 16.764 72.644 0)
 		(effects
