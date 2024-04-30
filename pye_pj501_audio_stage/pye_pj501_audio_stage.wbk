@@ -31,22 +31,22 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(55, 126, 184)",
+          "color": "rgb(102, 194, 165)",
           "cursor1": {
-            "position": 0.009201834862385322,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "position": 0.006737606262099151,
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
           },
           "cursor2": {
-            "position": 0.00963302752293578,
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "position": 0.007218079286255366,
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
           },
           "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
           },
-          "signal": "V(/vs1)",
+          "signal": "V(Net-_R10-Pad2_)",
           "trace_type": 257
         }
       ]
@@ -71,8 +71,17 @@
       "showGrid": true,
       "traces": [
         {
-          "color": "rgb(77, 175, 74)",
-          "signal": "V(/a_out)",
+          "color": "rgb(152, 78, 163)",
+          "cursor1": {
+            "position": 831.7582450667021,
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
+          },
+          "cursorD": {
+            "x_format": "3~Hz",
+            "y_format": "3~dBV"
+          },
+          "signal": "V(/va0)",
           "trace_type": 521
         },
         {
@@ -81,17 +90,13 @@
           "trace_type": 521
         },
         {
-          "color": "rgb(55, 126, 184)",
-          "cursor1": {
-            "position": 994.2737992485877,
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "cursorD": {
-            "x_format": "3~s",
-            "y_format": "3~V"
-          },
-          "signal": "V(/vs2)",
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(Net-_C1-Pad2_)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(255, 255, 51)",
+          "signal": "V(Net-_R13-Pad2_)",
           "trace_type": 521
         }
       ]
